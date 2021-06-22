@@ -5,8 +5,8 @@
     :minutes="minutes"
     :seconds="seconds"
   ></before>
-  <after v-else-if="isDuring"></after>
-  <during v-else></during>
+  <during v-else-if="isDuring"></during>
+  <after v-else></after>
 </template>
 
 <script>
@@ -26,7 +26,7 @@ export default {
   }),
   computed: {
     isBefore: function () {
-      return +new Date() > start_time * 1000;
+      return +new Date() <= start_time * 1000;
     },
     isDuring: function () {
       return +new Date() <= end_time * 1000;
