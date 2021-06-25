@@ -53,7 +53,7 @@
             elevation="4"
             x-large
           >
-            Watch it now!
+            Watch it here!
           </v-btn>
         </a>
       </v-col>
@@ -61,10 +61,7 @@
 
     <v-row class="pt-4">
       <v-col cols="12" align-content="center" justify="center" align="center">
-        <a
-          class="link"
-          href="https://discord.gg/SaAVF9tJGg"
-        >
+        <a class="link" href="https://discord.gg/SaAVF9tJGg">
           <v-icon class="footer-icons">mdi-discord</v-icon>
         </a>
         <a class="link" href="https://www.instagram.com/eeyore_mari/">
